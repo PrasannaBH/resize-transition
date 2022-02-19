@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'ProductSans-Bold';
+  src: url('ProductSans-Bold.svg#ProductSans-Bold') format('svg'),
+       url('ProductSans-Bold.ttf') format('truetype'),
+       url('ProductSans-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProductSansBold';
+  src: url('ProductSansBold.eot');
+  src: url('ProductSansBold.eot?#iefix') format('embedded-opentype'),
+       url('ProductSansBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

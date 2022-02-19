@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'ProductSans-Bold';
+    src: url('../fonts/ProductSans-Bold.svg') format('svg'),
+         url('../fonts/ProductSans-Bold.ttf') format('truetype'),
+         url('../fonts/ProductSans-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'ProductSansBold';
+    src: url('../fonts/ProductSansBold.eot');
+    src: url('../fonts/ProductSansBold.eot') format('embedded-opentype'),
+         url('../fonts/ProductSansBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ProductSans-Bold';
+}
+
+body {
+    margin: 50px;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Product-sans-bold', ;
+}
+
+.one {
+    display: flex;
+    background-color: #D1E1FF;
+    width: 80%;
+    height: 50px;
+    border-radius: 8px;
+    transition: height 1s;
+}
+
+.one p {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 15px;
+    transition-delay: 1.5s;
+}
+
+.one.active {
+    height: 20px;
+    transition: height 1s;
+    opacity: 1;
+}
+
+.one.active p {
+    transition-delay: 0s;
+    opacity: 0;
+}
+
+.one.active .links img {
+    transition-delay: 0s;
+    opacity: 0;
+}
+
+.one .links img {
+    height: 30px;
+    padding-top: 10px;
+    align-items: center;
+    padding-left: 15px;
+    transition-delay: 1.5s;
+}
+
+button {
+    margin-right: 15px;
+    background-color: #D1E1FF;
+    margin-left: auto;
+}
+/* ====================== ONE END =========================== */
+
+.two {
+    display: flex;
+    position: relative;
+    background-color: #D1E1FF;
+    width: 80%;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: height 1s;
+}
+
+.two p {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 15px;
+    transition-delay: 1.5s;
+    opacity: 1;
+}
+
+.two.active {
+    height: 20px;
+    transition: height 1s;
+    opacity: 1;
+}
+
+.two.active p {
+    transition-delay: 0s;
+    opacity: 0;
+}
+
+.two.active .links input {
+    transition-delay: 0s;
+    opacity: 0;
+}
+
+.two .links input {
+    color: aliceblue;
+    background-color: black;
+    height: 35px;
+    width: 120%;
+    margin-top: 7px;
+    margin-left: 20px;
+    align-items: center;
+    border-radius: 5px;
+    /* padding-left: 15px; */
+    border: none;
+    transition-delay: 1.5s;
+}
+
+button {
+    margin-right: 15px;
+    background-color: #D1E1FF;
+    border: none;
+    margin-left: auto;
+}
+
+/* =========================== two end ============================= */
